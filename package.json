@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "git@github.com:diskyap/restFul-api-express.git",
   "author": "Disky Adit Prastio <diskyadit03@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.4"
+  }
 }
