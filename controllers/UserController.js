@@ -13,7 +13,7 @@ export const getUsersById = async (req, res) => {
   try {
     const response = await User.findOne({
       where: {
-        id: req.params.id
+        user_id: req.params.id
       }
     })
     res.status(200).json(response)
