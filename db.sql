@@ -1,7 +1,0 @@
--- Active: 1660273001445@@127.0.0.1@3306@restAPI_db
-
-SHOW TABLES;
-
-DESC users;
-
-SELECT * FROM users;
