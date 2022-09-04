@@ -30,3 +30,16 @@ export const createUser = async (req, res) => {
     console.log(error)
   }
 }
+
+export const updateUser = async (req, res) => {
+  try {
+    await User.update(req.body,{
+      where:{
+        user_id: req.params.id
+      }
+    })
+    res.status(200).json({ msg: 'user updated' })
+  } catch (error) {
+    console.log(error)
+  }
+}
